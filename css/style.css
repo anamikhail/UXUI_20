@@ -1,0 +1,188 @@
+body{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300 ;
+}
+
+h1{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+h3{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h2{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+h4{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+ a{  font-family:'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+color: black;}
+ 
+.navbar{
+    display: flex;
+ 
+}
+
+.nav-link{
+position: relative;
+top: 40px;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+.jumbotron{
+    position: relative;
+    top: 100px;
+    background: transparent;
+}
+
+.desktopgif{
+    display: flex;
+    position: relative;
+    top: -680px;
+justify-content: center;
+}
+
+.summary{ 
+    position: relative;
+    top: -650px;
+    background-color: rgb(65,75,113,1);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: -80px;
+    margin-right: -80px;
+   
+}
+.summarycontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "leftcolumn rightcolumn";
+}
+.leftcolumn{ 
+    grid-area: leftcolumn;
+}
+
+.rightcolumn{
+    grid-area: rightcolumn;
+}
+.research{
+    
+    position:relative;
+    top: -600px;
+}
+
+.part2{
+    position: relative;
+    top: -650px;
+    background-color: rgb(65,75,113,1);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: -80px;
+    margin-right: -80px;}
+
+
+  
+.ideation{ 
+    position:relative;
+    top: -625px;}
+
+.progressbar{ 
+    position: relative;
+    top: -625px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.finalprototype{
+    top: 100px;
+   position: relative;
+    background-color: rgb(65,75,113,1);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-left: -80px;
+    margin-right: -80px;}
+
+     .HIFI, .whatilearned,.visualdesign{
+        position: relative;
+        top: 75px;
+       
+    }
+    .prototypes, .finalprototype{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .issues{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.whatilearned{
+    position: relative;
+        top: 100px;
+        
+}
+.footer{
+    position: relative;
+left: -160px;
+    background-color: #616161;
+    width: 2000vmin;
+    color: white;
+    top: 700px;
+height: 140px;
+bottom: 0px;
+}
+
+.footer img{
+    position: relative;
+    height: 34.38px;
+    width: 34.38px;              
+    left: 100px;
+    top: 37px;
+    }              
+
+.footer a{
+    display: flex;
+ position: relative;
+ left: 140px;
+ top: 3px;
+text-decoration: none;
+color: white;
+font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer p{
+    display: flex;
+    position: relative;
+    left: 1500px;
+    top: -36px;
+}
+    
